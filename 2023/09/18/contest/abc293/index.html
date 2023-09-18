@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" data-default-color-scheme=auto>
+<html lang="zh-CN" data-default-color-scheme=auto>
 
 
 
@@ -13,26 +13,26 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="John Doe">
+  <meta name="author" content="cyb1010">
   <meta name="keywords" content="">
   
     <meta name="description" content="A&#x2F;B 按题意模拟即可。 A B C 注意到共要走 H+W−1H+W-1H+W−1 步，每步有两个方向可选，共 2H+W−12^{H+W-1}2H+W−1 种情况。 由于 2≤H,W≤102\le H,W\le 102≤H,W≤10 ，故 H+W−1≤19H+W-1\le 19H+W−1≤19 ，故爆搜即可。 C D 显然的，颜色在本题中是无效的变量，实际题意如下：  给定一张无向图，保证任意一点">
 <meta property="og:type" content="article">
 <meta property="og:title" content="abc293 题解">
-<meta property="og:url" content="http://cyb1010.github.io/2023/09/18/contest/abc293/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:url" content="https://cyb1010.github.io/2023/09/18/contest/abc293/index.html">
+<meta property="og:site_name" content="CYB Blog">
 <meta property="og:description" content="A&#x2F;B 按题意模拟即可。 A B C 注意到共要走 H+W−1H+W-1H+W−1 步，每步有两个方向可选，共 2H+W−12^{H+W-1}2H+W−1 种情况。 由于 2≤H,W≤102\le H,W\le 102≤H,W≤10 ，故 H+W−1≤19H+W-1\le 19H+W−1≤19 ，故爆搜即可。 C D 显然的，颜色在本题中是无效的变量，实际题意如下：  给定一张无向图，保证任意一点">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-09-18T09:44:00.000Z">
 <meta property="article:modified_time" content="2023-09-18T10:41:13.638Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="cyb1010">
 <meta property="article:tag" content="oi">
 <meta property="article:tag" content="contest">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>abc293 题解 - Hexo</title>
+  <title>abc293 题解 - CYB Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -118,7 +118,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/">
                 <i class="iconfont icon-home-fill"></i>
-                <span>Home</span>
+                <span>首页</span>
               </a>
             </li>
           
@@ -130,7 +130,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/archives/">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>Archives</span>
+                <span>归档</span>
               </a>
             </li>
           
@@ -142,7 +142,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/categories/">
                 <i class="iconfont icon-category-fill"></i>
-                <span>Categories</span>
+                <span>分类</span>
               </a>
             </li>
           
@@ -154,7 +154,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/tags/">
                 <i class="iconfont icon-tags-fill"></i>
-                <span>Tags</span>
+                <span>标签</span>
               </a>
             </li>
           
@@ -166,7 +166,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
-                <span>About</span>
+                <span>关于</span>
               </a>
             </li>
           
@@ -178,7 +178,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/links/">
                 <i class="iconfont icon-link-fill"></i>
-                <span>Links</span>
+                <span>友链</span>
               </a>
             </li>
           
@@ -224,7 +224,7 @@
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
         <time datetime="2023-09-18 17:44" pubdate>
-          September 18, 2023 pm
+          2023年9月18日 下午
         </time>
       </span>
     
@@ -235,7 +235,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.8k words
+          1.8k 字
         
       </span>
     
@@ -246,7 +246,7 @@
         
         
         
-          15 mins
+          15 分钟
         
       </span>
     
@@ -424,31 +424,31 @@ PS：一定是 <span class="katex"><span class="katex-mathml"><math xmlns="http:
   <div class="license-box my-3">
     <div class="license-title">
       <div>abc293 题解</div>
-      <div>http://cyb1010.github.io/2023/09/18/contest/abc293/</div>
+      <div>https://cyb1010.github.io/2023/09/18/contest/abc293/</div>
     </div>
     <div class="license-meta">
       
         <div class="license-meta-item">
-          <div>Author</div>
-          <div>John Doe</div>
+          <div>作者</div>
+          <div>cyb1010</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
-          <div>Posted on</div>
-          <div>September 18, 2023</div>
+          <div>发布于</div>
+          <div>2023年9月18日</div>
         </div>
       
       
       
         <div class="license-meta-item">
-          <div>Licensed under</div>
+          <div>许可协议</div>
           <div>
             
               
               
                 <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
-                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
                     <i class="iconfont icon-by"></i>
                   </span>
                 </a>
@@ -471,7 +471,7 @@ PS：一定是 <span class="katex"><span class="katex-mathml"><math xmlns="http:
                       <a href="/2023/09/18/%E5%85%B6%E4%BB%96/2-SAT/" title="2-SAT">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile">2-SAT</span>
-                        <span class="visible-mobile">Previous</span>
+                        <span class="visible-mobile">上一篇</span>
                       </a>
                     
                   </article>
@@ -480,7 +480,7 @@ PS：一定是 <span class="katex"><span class="katex-mathml"><math xmlns="http:
                     
                       <a href="/2023/09/18/%E6%A0%91%E4%B8%8A%E9%97%AE%E9%A2%98/%E8%99%9A%E6%A0%91/" title="虚树">
                         <span class="hidden-mobile">虚树</span>
-                        <span class="visible-mobile">Next</span>
+                        <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
@@ -534,7 +534,7 @@ PS：一定是 <span class="katex"><span class="katex-mathml"><math xmlns="http:
     <div id="toc">
   <p class="toc-header">
     <i class="iconfont icon-list"></i>
-    <span>Table of Contents</span>
+    <span>目录</span>
   </p>
   <div class="toc-body" id="toc-body"></div>
 </div>
@@ -595,7 +595,7 @@ PS：一定是 <span class="katex"><span class="katex-mathml"><math xmlns="http:
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -603,7 +603,7 @@ PS：一定是 <span class="katex"><span class="katex-mathml"><math xmlns="http:
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -782,7 +782,7 @@ PS：一定是 <span class="katex"><span class="katex-mathml"><math xmlns="http:
   
 
   <noscript>
-    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
 </body>
 </html>
