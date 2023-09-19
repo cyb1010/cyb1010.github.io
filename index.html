@@ -244,7 +244,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2023/09/18/%E6%9D%82%E9%A2%98%E4%B9%B1%E5%81%9A/" target="_self">
         <div>
-          没写过几道题也来写sol的cyb就是屑 CF1305G 一操作等同于和一个年龄为0的人进行二操作。考虑在按位与为0的两人之间连边，边权为年龄和，题意即为求最大生成树减去点权和。注意到按位与为0，因此从大到小枚举年龄和，再枚举子集表示一个人的年龄，然后跑最小生成树。实现时将相同年龄的一起处理，cnticnt_icnti​ 表示年龄为 iii 的有多少连通块，经过一次合并后变成一个连通块。 code\
+          没写过几道题也来写sol的cyb就是屑 CF1305G Kuroni and Antihype 一操作等同于和一个年龄为0的人进行二操作。考虑在按位与为0的两人之间连边，边权为年龄和，题意即为求最大生成树减去点权和。注意到按位与为0，因此从大到小枚举年龄和，再枚举子集表示一个人的年龄，然后跑最小生成树。实现时将相同年龄的一起处理，cnticnt_icnti​ 表示年龄为 iii 的有多少连通块，经
         </div>
       </a>
 
@@ -253,48 +253,6 @@
           <div class="post-meta mr-3">
             <i class="iconfont icon-date"></i>
             <time datetime="2023-09-18 19:50" pubdate>
-              2023-09-18
-            </time>
-          </div>
-        
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/oi/">#oi</a>
-            
-              <a href="/tags/sol/">#sol</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h2 class="index-header">
-        
-        <a href="/2023/09/18/contest/abc293/" target="_self">
-          abc293 题解
-        </a>
-      </h2>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2023/09/18/contest/abc293/" target="_self">
-        <div>
-          A/B 按题意模拟即可。 A B C 注意到共要走 H+W−1H+W-1H+W−1 步，每步有两个方向可选，共 2H+W−12^{H+W-1}2H+W−1 种情况。 由于 2≤H,W≤102\le H,W\le 102≤H,W≤10 ，故 H+W−1≤19H+W-1\le 19H+W−1≤19 ，故爆搜即可。 C D 显然的，颜色在本题中是无效的变量，实际题意如下：  给定一张无向图，保证任意一点
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2023-09-18 17:44" pubdate>
               2023-09-18
             </time>
           </div>
@@ -404,15 +362,15 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h2 class="index-header">
         
-        <a href="/2023/09/18/%E6%95%B0%E5%AD%A6/%E5%8E%9F%E6%A0%B9/" target="_self">
-          原根
+        <a href="/2023/09/18/contest/abc293/" target="_self">
+          abc293 题解
         </a>
       </h2>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2023/09/18/%E6%95%B0%E5%AD%A6/%E5%8E%9F%E6%A0%B9/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/09/18/contest/abc293/" target="_self">
         <div>
-          前置知识1：欧拉定理  若 gcd⁡(a,m)=1\gcd(a,m) =1gcd(a,m)=1，则 aϕ(m)≡1(modm)a^ {  \phi(m)  }  \equiv 1\pmod maϕ(m)≡1(modm)  因此当 gcd⁡(a,m)=1\gcd(a,m) =1gcd(a,m)=1 时，存在一个最小正整数 nnn 使得 an≡1(modm)a^ { n } \equiv 1\pmod
+          A/B 按题意模拟即可。 A B C 注意到共要走 H+W−1H+W-1H+W−1 步，每步有两个方向可选，共 2H+W−12^{H+W-1}2H+W−1 种情况。 由于 2≤H,W≤102\le H,W\le 102≤H,W≤10 ，故 H+W−1≤19H+W-1\le 19H+W−1≤19 ，故爆搜即可。 C D 显然的，颜色在本题中是无效的变量，实际题意如下：  给定一张无向图，保证任意一点
         </div>
       </a>
 
@@ -432,7 +390,7 @@
             
               <a href="/tags/oi/">#oi</a>
             
-              <a href="/tags/math/">#math</a>
+              <a href="/tags/sol/">#sol</a>
             
           </div>
         
@@ -475,6 +433,48 @@
               <a href="/tags/oi/">#oi</a>
             
               <a href="/tags/tree/">#tree</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2023/09/18/%E6%95%B0%E5%AD%A6/%E5%8E%9F%E6%A0%B9/" target="_self">
+          原根
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/09/18/%E6%95%B0%E5%AD%A6/%E5%8E%9F%E6%A0%B9/" target="_self">
+        <div>
+          前置知识1：欧拉定理  若 gcd⁡(a,m)=1\gcd(a,m) =1gcd(a,m)=1，则 aϕ(m)≡1(modm)a^ {  \phi(m)  }  \equiv 1\pmod maϕ(m)≡1(modm)  因此当 gcd⁡(a,m)=1\gcd(a,m) =1gcd(a,m)=1 时，存在一个最小正整数 nnn 使得 an≡1(modm)a^ { n } \equiv 1\pmod
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-09-18 17:44" pubdate>
+              2023-09-18
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/oi/">#oi</a>
+            
+              <a href="/tags/math/">#math</a>
             
           </div>
         
