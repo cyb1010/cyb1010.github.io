@@ -573,7 +573,7 @@
         fetch('https://v1.hitokoto.cn')
         .then(response => response.json())
         .then(data => {
-          typing('『' + data.hitokoto + '』'+'<h1>' + '</h1>' + '<h5>'+ '——' + '「' + data.from + '」' + '</h5>')
+          typing('『' + data.hitokoto + '』'+'<h2>'+'</h2>' +'<h5>'+ '——' + '「' + data.from + '」' + '</h5>')
         })
       
     })(window, document);
