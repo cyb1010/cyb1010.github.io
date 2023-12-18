@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://www.loliapi.com/acg/">
 <meta property="article:published_time" content="2023-11-29T09:26:01.000Z">
-<meta property="article:modified_time" content="2023-12-04T01:18:08.508Z">
+<meta property="article:modified_time" content="2023-12-18T09:43:22.304Z">
 <meta property="article:author" content="cyb1010">
 <meta property="article:tag" content="oi">
 <meta name="twitter:card" content="summary_large_image">
@@ -355,7 +355,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 差为 2 时，5-3=2；差为 4 时，7-3=4；否则，由哥德巴赫猜想在 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><msup><mn>0</mn><mn>7</mn></msup></mrow><annotation encoding="application/x-tex">10^7</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span> 以内的正确性易得。</p>
 <p>然后，我们先在差为奇质数的点之间连边，观察到这是张二分图：奇数连偶数。然后跑最大匹配，最后两边先尝试 2 步的，如果还剩下一对则 3 步。</p>
 <p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/record/136534301"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">code</mtext></mrow><annotation encoding="application/x-tex">\texttt{code}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">code</span></span></span></span></span></a></p>
-<h2 id="CF794D-Labelling-Cities"><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/record/136229485">CF794D Labelling Cities</a></h2>
+<h2 id="CF794D-Labelling-Cities"><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/CF794D">CF794D Labelling Cities</a></h2>
 <p>值一样的点能到点的集合（包括自身）必定一样，所以我们异或哈希，将能到点集合一样的点缩到一起。<br>
 然后发现这样缩完点之后如果合法，原图必定缩成了一条链，因此判链，直接按链的顺序赋值就好了。</p>
 <p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/record/136229485"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">code</mtext></mrow><annotation encoding="application/x-tex">\texttt{code}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">code</span></span></span></span></span></a></p>
