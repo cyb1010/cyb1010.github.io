@@ -1,0 +1,732 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.luogu.com.cn/upload/image_hosting/ok6d1pza.png">
+  <link rel="icon" href="https://cdn.luogu.com.cn/upload/image_hosting/ok6d1pza.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#3e4857">
+  <meta name="author" content="cyb1010">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="2024的最后一战——ecf邮寄">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2024的最后一战——ecf邮寄">
+<meta property="og:url" content="https://cyb1010.github.io/2024/12/31/%E6%B8%B8%E8%AE%B0/2024%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E6%88%98%E2%80%94%E2%80%94ecf%E6%B8%B8%E8%AE%B0/index.html">
+<meta property="og:site_name" content="CYB Blog">
+<meta property="og:description" content="2024的最后一战——ecf邮寄">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.loliapi.com/acg/">
+<meta property="article:published_time" content="2024-12-31T11:38:56.000Z">
+<meta property="article:modified_time" content="2024-12-31T13:29:09.003Z">
+<meta property="article:author" content="cyb1010">
+<meta property="article:tag" content="oi">
+<meta property="article:tag" content="游记">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.loliapi.com/acg/">
+  
+  
+  
+  <title>2024的最后一战——ecf邮寄 - CYB Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/KaTeX/0.16.2/katex.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"cyb1010.github.io","root":"/","version":"1.9.5-a","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>CYB Blog</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                <span>友链</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://cdn.luogu.com.cn/upload/image_hosting/cwp7wl9p.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="2024的最后一战——ecf邮寄"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-12-31 19:38" pubdate>
+          2024年12月31日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          3.3k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          28 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">2024的最后一战——ecf邮寄</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h2 id="前言">前言</h2>
+<p>省流：偶遇高烧及上吐下泻强如怪物拼尽全力无法战胜但是靠实力队友轻松带飞可惜被pt两人队打爆勇夺打星队榜首</p>
+<p>好久没写过东西了，发现写作水平退化程度&gt;&gt;语言表达能力啊，虽然后者也不剩多少了。</p>
+<p>严重的拖延症加上不适的身体导致12.31才开始写这玩意啊，然后一度因为精神不正常还以为已经2025了，奇怪于为啥没人庆祝（</p>
+<p>由于写的迟了，挺多东西可能不准，写错了可以联系我修改啊。</p>
+<h2 id="day-1">day -1</h2>
+<p>坐飞机去西安。<br>
+上次坐飞机是什么时候呢？感觉变化巨大啊，飞机餐有牛肉面让人有点意外，但是印象中坐飞机可以几种饮料无限续杯来着，是记忆错乱了还是不同航班公司导致的，不重要也懒得研究了。过去的飞机上左边靠窗右边没人，好评。</p>
+<p>到了机场又打了辆车去西工大，居然坐车坐了 1.5h+，学校疑似有点偏了啊。领完东西面到了石老板和杭二牢学长。</p>
+<p>然后就是热身赛，桌面有神秘文件夹，里面有署名 <code>@author: kevin5307</code> 的能通过 T3 的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mfrac><msup><mi>n</mi><mn>3</mn></msup><mi>w</mi></mfrac><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(\frac{n^3}{w})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3629em;vertical-align:-0.345em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0179em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02691em;">w</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913em;"><span style="top:-2.931em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">)</span></span></span></span> 代码。。然后让我写了个 geo， zes 写了个签到，cmk 花挺久+到处贺完成了一份 MTT 通过了 T4。出来才想起来我的 T2 写的有问题啊，随随便便就叉掉了，可能热身赛数据不全吧。<br>
+<img src="/img/kevin5307.jpg" srcset="/img/loading.gif" lazyload alt="b.cpp 但是可以通过 C"></p>
+<p>然后就是晚饭了。晚饭后还和 cdqz 群友举办了点团建活动，记得狼人杀必先出 hanghang 啊！唯一问题是晚上吃的不是很好，感觉非常油腻，，煎蛋吃出了塑料皮的感觉，现在想起还是反胃，不该强迫自己吃的。<br>
+<img src="/img/cdqz%E7%BE%A4%E5%8F%8B%E5%B8%85%E7%85%A7.jpg" srcset="/img/loading.gif" lazyload alt="cdqz群友帅照.jpg"></p>
+<p>回酒店和 zes 联机尖塔，拿下招牌技后凭借 trade 大大减少攻击牌数量，配合金字塔轻松招牌。然后打着打着不知为何又变成了<s>唐氏</s>红蓝无限，zes 死后独自大战两倍血甜八，好不容易快打完结果 zes 掉线白打啦哈哈哈哈哈我真幸运。。。</p>
+<p>本来是想 ecf 期间入坑联机空洞随的，结果 ylwang 直接没带电脑来西安/jy</p>
+<h2 id="day-0">day 0</h2>
+<p>起床，打摆，下楼吃饭带着 cmk 一起走错路了。出发去比赛，走到学校门口发现胸牌没带，有不祥的预感。。。还好随行的家长帮忙解决了一下，莘哥还有一块多余的牌子给我了，感恩！</p>
+<p>开场，cmk 和 zes 读 L，我直接开到 I，然后读漏了黑白点数一样让 zes 直接写染色，写完了才突然发现。。然后讨论了一下，zes 写了剥叶子，还是很快的过了。写的同时我和 cmk 开始读 A，稍微商量就有了贪心做法，然后应该是 cmk 开始上手写？没多久也是过了，没输出 “Yes/No” 交了一发罚时。<br>
+<img src="/img/ecf%E8%B5%9B%E6%97%B6.jpg" srcset="/img/loading.gif" lazyload alt="开赛没多久，也是把 A 和 I 过了"></p>
+<p>然后就开始卡题了。看着大家都把 G 过了，可是我们讨论了挺久都没有头绪，我开始感觉稍微有点难受啊，生理性而非心理性。但是这时 zes 声称会 L，就是不急着写，比较麻烦，一题在手我们也放松了一点。他们两人讨论 G 的过程中我看 H 好像看起来挺可做的就开了，想了一会给出了最假的直接 unique 后输出的做法然后被我立刻叉了。然后想了个线段树维护 dp 的做法，感觉看着挺真的，虽然有点细节证明没明白（）然后自信开写，然后刚开始写线段树就被赶下来让 zes 代写了/dk。然后很快过了样例（样例我的最假的做法就能过。。）和我手搓的数据，但是连挂两发，zes 声称写的绝无问题，我也开始质疑是不是做法假了。。然后就发现输入的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>l</mi><mi>i</mi></msub><mo separator="true">,</mo><msub><mi>r</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">l_i,r_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，我的理解是格子的格线编号，即一行有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>r</mi><mi>i</mi></msub><mo>−</mo><msub><mi>l</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">r_i-l_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 个格子，但是他的意思也有可能是格子的编号，即一行有 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>r</mi><mi>i</mi></msub><mo>−</mo><msub><mi>l</mi><mi>i</mi></msub><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">r_i-l_i+1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.0197em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span> 个格子啊！这也解释了为什么代码一定能通过我手搓的数据，我自己格式就不对我测什么呢。。改了之后一下就过了，一看榜发现比 一路向北 慢三分钟痛失一血啊啊啊。</p>
+<p>然后大家接着卡 G，在都没有思路的情况下 zes 提出了打表。打完表后三个人互相瞪来瞪去，然后七嘴八舌（？）地发现了是形如 <span class='katex-error' title='ParseError: KaTeX parse error: Expected &#039;EOF&#039;, got &#039;&amp;&#039; at position 9: ax+by=n &amp;̲ (x,y&gt;0)'>ax+by=n &amp; (x,y&gt;0)</span> 的形式，稍微验证之后直接写了就过了。</p>
+<p>此时我已经感觉挺不舒服了，头很晕，还有一段时间的持续性的心脏痛，感觉自己有些发烧，精神状态挺差的。</p>
+<p>但是比赛还在继续，我们跟了下榜开始 E 和 F。cmk 快速的想出了 E 的背包做法和 bitset 优化，和我讨论了一下之后直接开写。然后我和 zes 就开始思考 F，看着就像离散数学上面的例题啊，但是有符号数量限制。注意到没有取非，于是我们发现他是形如 n 维空间上单调的东西，zes 提出了找 “关键组”，算了一下步数大概是组合数状物，在可接受范围内。cmk 交第一发 WA 了，我的第一个问题就是有没有判前导0，果然没有。。改了后变成了 RE，于是 cmk 先去上个厕所思考一下，我们直接开始 F。结果 cmk 慌慌张张地跑回来大喊 “想到问题了！”，然后使用 <code>#define int long long</code> 飞快地通过了，原因略（）然后 zes 也比较快的写完了，但是又 WA 了并且看起来没有任何问题。大家开始一起查错，cmk 通读题面后发现怎么“合法表达式”要求这么严格！看得出来写 spj 的人非常之懒啊，改了之后轻松通过。</p>
+<p>然后 cmk 和 zes 就开始交流早就有了思路的 L，我则开始阅读有队伍通过的 C，过了一会 zes 就会了 L 的一两个（？） log 的做法，然后开始写。我都忘记为啥挂了一发了。</p>
+<p>然后在我和 cmk 都不会 k 的情况下进入了封榜。此时我们是 rk3，但是七个题看起来还是比较危险的，我们（主要是他俩。）讨论后 cmk 就开始写 C 了，同时我和 zes 依然在思考 k。然后 zes 突然就会了 k 的非常好写做法，于是我们开始紧张刺激的两线写题调题，在 zes 挂一发，加哈希，再挂一发后，cmk 突然发现了唯一隐患，然后 295 分钟极限通过了 k！然后并无意外的没调出 C，但是封榜后通过一题也算不错了。</p>
+<p>一结束发现网速一和范斯都没有过 H 啊！我原来有点牛？（不是<br>
+但是身体越来越难受，好不容易走回了酒店然后睡了一下午。</p>
+<p>晚上去城里吃，但是要坐一个半小时车，头晕脑胀，到了店里才发现身体状况差的啥都吃不下，吃了一小口薄饼都差点吐了，只好先到边上休息。多谢 wsy 爸爸帮我专门跑出去买了小米粥，多谢各位家长的照顾啊。</p>
+<p>吃完饭大家又去旅游，毫不意外的我则是和其余若干人直接打车回酒店了，回了酒店烧着水就睡着了，差点忘记吃药。</p>
+<p>然而 cmk 要打 cf，开着灯。晚上醒了好多次。</p>
+<h2 id="day-1-2">day 1</h2>
+<p>0:00~1:45 醒了若干次，每次都会迷迷糊糊地和 cmk 说些莫名其妙的话。然后听到他说 cf 除了他都上分了（）然后他就睡觉了。</p>
+<p>事实证明并不是灯的问题，四点左右又醒了，然后一直半醒不醒的睡到了八点多，吃完早饭又半睡不睡的醒到了中午。</p>
+<p>在西工大食堂找到了唯一比较清淡的，是粥和一些包子，但是不能用餐券只能自费。然后还是吃吐了。</p>
+<p>总之是去了会场，也是听到张学良致辞了（）讲题讲了一半就变成了华为打广告时间，我们华为真是太牛了！<br>
+<img src="/img/%E5%BC%A0%E5%AD%A6%E8%89%AF.jpg" srcset="/img/loading.gif" lazyload alt="我去，张学良！"></p>
+<p>然后就是喜闻乐见的滚榜。这的老师完全不会解说啊，只会“恭喜”“很遗憾”两个词，还滚的巨快。能不能呼叫我们刘春英啊。<br>
+成绩还是不错的，由于提前听笋说过了并不惊讶，就是罚时稍微有点惊险，感觉我秒了个 H 还是有贡献的啊！<br>
+<img src="/img/ecf%E6%A6%9C.jpg" srcset="/img/loading.gif" lazyload alt="39分钟罚时优势拿下打星队rk1"></p>
+<p>坐了大巴去华为晚宴，又遇到石老板了。晚宴抽中了一个鼠标，挺开心的。cmk 和 zes 也分别抽中了充电宝和帆布袋+水杯+雨伞状物。然后和在 ZJU 的学长合影，发在杭二信奥群但是被天元群的学长认出来了/yun</p>
+<p>打车回酒店，比大巴车快好多！但是回酒店了和 zes 尖塔连不上，至今不知原因，只好线下被指导打 bot 了。</p>
+<p>依然拉肚子。</p>
+<h2 id="day-2">day 2</h2>
+<p>起床后总算是舒服了一些。就是依然拉肚子。正常的出发回杭州了，只能说还是在家舒服啊/shui</p>
+<p><img src="/img/%E5%9B%9E%E6%9D%AD%E5%B7%9E.jpg" srcset="/img/loading.gif" lazyload alt="总算是回杭州啦"></p>
+<p>看到了利物浦 5:0 大胜的消息，还是很开心的(●’◡’●)，毕竟从小学看红军看到现在了。</p>
+<h2 id="Last-But-not-Least">Last But not(?) Least</h2>
+<p>注意到我本身代码能力及速度还是不如 zes 和 cmk 的啊，再加上英语方面的一些优势（？），导致大概率是来起到写题之外的作用的吧。。总的来说也是帮上他们了，但是感觉很多地方做的不足啊，再加上身体原因错过了好多体验的机会，感觉还是有点遗憾的。</p>
+<p>明年应该也没有 ecf 打了，打 OI 大概率也是最后一年了，亦有万千希冀，亦有些许感慨啊，希望能和大家一起走到最后吧！</p>
+<p>我们！是！<s>冠</s>（×） 季军！</p>
+<p><img src="/img/%E7%89%A2%E5%AD%A6%E9%95%BF.jpg" srcset="/img/loading.gif" lazyload alt="hez 2019~2025级新生"></p>
+<blockquote>
+<p>貴方だけを憶えている<br>
+雲の影が流れて往く<br>
+言葉だけが溢れている<br>
+想い出は夏風、揺られながら</p>
+</blockquote>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/oi/" class="print-no-link">#oi</a>
+      
+        <a href="/tags/%E6%B8%B8%E8%AE%B0/" class="print-no-link">#游记</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>2024的最后一战——ecf邮寄</div>
+      <div>https://cyb1010.github.io/2024/12/31/游记/2024的最后一战——ecf游记/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>cyb1010</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年12月31日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2024/04/15/%E6%AF%8F%E6%97%A5%E6%80%BB%E7%BB%93/" title="每日总结">
+                        <span class="hidden-mobile">每日总结</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="twikoo"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#comments', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.6.8/twikoo.all.min.js', function() {
+        var options = Object.assign(
+          {"envId":"https://comment-orpin.vercel.app/","region":"ap-shanghai","path":"window.location.pathname"},
+          {
+            el: '#twikoo',
+            path: 'window.location.pathname',
+            onCommentLoaded: function() {
+              Fluid.utils.listenDOMLoaded(function() {
+                var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
+                Fluid.plugins.imageCaption(imgSelector);
+                Fluid.plugins.fancyBox(imgSelector);
+              });
+            }
+          }
+        )
+        twikoo.init(options)
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text)
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
